@@ -1,5 +1,7 @@
 import React from "react";
-import { CiHeart, CiBookmark, CiMail } from "react-icons/ci";
+import { CiHeart, CiBookmark, CiMail, CiCircleInfo } from "react-icons/ci";
+import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import { LuUpload } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import img1 from "../../public/images/img1.webp";
 import img2 from "../../public/images/img2.gif";
@@ -15,10 +17,6 @@ import img11 from "../../public/images/img11.webp"
 import img12 from "../../public/images/img12.webp"
 import img13 from "../../public/images/img13.webp"
 import img14 from "../../public/images/img14.webp"
-
-
-
-
 
 
 export default function Dribble() {
@@ -169,10 +167,13 @@ export default function Dribble() {
   <CiBookmark />
 </div>
  <div className="rounded-full px-2 py-2 border border-gray-300 text-xl">
-  <CiBookmark />
+  <LuUpload />
 </div>
  <div className="rounded-full px-2 py-2 border border-gray-300 text-xl">
-  <CiBookmark />
+  <IoChatbubbleEllipsesOutline />
+</div>
+ <div className="rounded-full px-2 py-2 border border-gray-300 text-xl">
+  <CiCircleInfo />
 </div>
 </div>
 
